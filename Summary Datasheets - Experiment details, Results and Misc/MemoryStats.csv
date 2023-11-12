@@ -1,0 +1,15 @@
+Role,Model Name,Selected GPUs,"FLOPs
+(BFlops)","GPU Memory
+(GB)","Model Parameters
+(Million)","Memory Required for storage of .h5
+(MBs)","Inference Time
+(secs/1000 images)"
+Teacher,Effnet_B5,['0'],11.318,6.626,28.524,108.81,7855.145
+Teacher,Effnet_B6,['0'],16.854,8.468,40.972,156.295,9904.337
+Teacher,Effnet_B7,['0'],26.209,11.307,64.111,244.562,15770.301
+Teacher,Ensemble_V3,['0'],54.381,26.401,133.606,509.667,31775.953
+Distilled Student,EffNetB0_distilled,['0'],1.602,1.951,4.056,15.472,1231.037
+Distilled Student,EffNetB1_distilled,['0'],2.415,2.685,6.582,25.107,2082.608
+Distilled Student,EffNetB2_distilled,['0'],2.859,2.811,7.776,29.662,2349.449
+Distilled Student,Ensemble_B0B1,['0'],4.017,4.635,10.638,40.579,2929.98
+Distilled Student,Ensemble_B0B1B2,['0'],6.876,7.446,18.413,70.241,4685.169
